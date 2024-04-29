@@ -1,5 +1,24 @@
 {
+  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employeetracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  },
+
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

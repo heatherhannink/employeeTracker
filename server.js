@@ -47,25 +47,28 @@ const start = async() => {
     switch(selection){
         case "VIEW EMP":
         viewEmployees().then(start);
-         break
+         break;
         case "VIEW ROLES":
         viewRoles().then(start);
-         break
+         break;
          case "VIEW DEPT":
         viewDepartments().then(start); 
-         break
+         break;
         case "ADD DEPT":
         addDepartment().then(start);
-         break
-        case "VIEW ADD ROLE":
+         break;
+        case "ADD ROLE":
         addRole().then(start);
-         break
-        case "VIEW ADD EMP":
+         break;
+        case "ADD EMP":
         addEmployee().then(start);
-         break 
-        case "VIEW UPDT EMP ROLE":
+         break; 
+        case "UPDT EMP ROLE":
         updateEmployeeRole().then(start);
-         break 
+         break; 
+         default:
+            console.log ("not an option")
+            break;
     }
 
     
